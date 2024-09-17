@@ -18,10 +18,6 @@ git clone https://github.com/Polaris-NetScan/ProjectSilence.git
 cd ProjectSilence
 ```
 ```
-python3 ProjectSilence.py
-```
-or
-```
 python3 ProjectSilence.py -h
 ```
 #### Usage
