@@ -89,6 +89,5 @@ def main():
         playback(args.sink, args.outfile, verbose=args.verbose)
     log_info(f"Exiting")
 
-
 if __name__ == "__main__":
     main()
