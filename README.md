@@ -1,7 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/mkdirlove/ProjectSilence"><img src="https://github.com/mkdirlove/ProjectSilence/blob/main/logo.png" alt="ProjectSilence
-"></a>
+  <a href="https://github.com/mkdirlove/ProjectSilence"><img src="https://github.com/mkdirlove/ProjectSilence/blob/main/logo.png" alt="ProjectSilence"></a>
   <br>
   Yet another simple tool for Bluetooth Security Assessment.
   <br>
@@ -84,14 +83,14 @@ $ bluetoothctl
 Once the address of the device is discovered, the script can handle the rest:
 
 ```
-$ python BlueSpy.py -a <address>
+$ python3 ProjectSilence.py -a <address>
 ```
 
 Note: The script might prompt for superuser permissions to modify the configuration of your **BlueZ** instance and pair it with the remote device.
 
 ## Troubleshooting
 
-`BlueSpy.py` is the main script that executes every step of the process. However, if you encounter issues with any of the phases, so it might be helpful to execute them individually:
+`ProjectSilence.py` is the main script that executes every step of the process. However, if you encounter issues with any of the phases, so it might be helpful to execute them individually:
 + `pair.py` utilizes the command-line tool `btmgmt` to modify the configuration of your **BlueZ** and initiate a pairing process with the remote device. The exact commands used are in the `pair` function inside `core.py`.
 + `connect.py` utilizes the command-line tool `bluetoothctl` to initiate a quick scan (necessary for BlueZ) and establish a connection to the device. The exact commands used are in the `connect` function inside `core.py`.
 + `just_record.py` utilizes the command-line tools `pactl` and `parecord` to search for the device in the system's audio sources (it must function as a microphone) and initiate a recording session. The exact commands used are in the `record` function inside `core.py`.
