@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/mkdirlove/ProjectSilence"><img src="https://github.com/mkdirlove/ProjectSilence/blob/main/logo.png" alt="ProjectSilence"></a>
+  <a href="https://github.com/mkdirlove/ProjectSilence">
+    <img src="https://github.com/mkdirlove/ProjectSilence/blob/main/logo.png" alt="ProjectSilence"></a>
   <br>
   Yet another simple tool for Bluetooth Security Assessment.
   <br>
