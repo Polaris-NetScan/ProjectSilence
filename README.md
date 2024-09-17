@@ -1,6 +1,3 @@
-# ProjectSilence
-
-
 <h1 align="center">
   <br>
   <a href="https://github.com/mkdirlove/ProjectSilence"><img src="https://github.com/mkdirlove/ProjectSilence/blob/main/logo.png" alt="ProjectSilence
