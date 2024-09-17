@@ -3,7 +3,7 @@
   <a href="https://github.com/mkdirlove/ProjectSilence">
     <img src="https://github.com/Polaris-NetScan/ProjectSilence/blob/main/logo.png" alt="ProjectSilence"></a>
   <br>
-  Yet another simple tool for Bluetooth Security Assessment.
+  Yet another simple tool for Bluetooth Devices Security Assessment.
   <br>
 </h1>
 
